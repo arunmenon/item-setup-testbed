@@ -1,0 +1,47 @@
+/* src/styles/ModelResponses.css */
+
+.responses-container {
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+  
+  .task-section {
+    margin-bottom: 2rem;
+  }
+  
+  .task-title {
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .response-card {
+    transition: box-shadow 0.3s ease;
+  }
+
+  .response-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  }
+
+  .feedback-button {
+    margin-top: 2rem;
+  }
+  
+  .thank-you-message {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  /* src/styles/ModelResponses.css */
+
+/* Add this to highlight selected cards */
+.response-card.selected {
+    border-color: #1976d2; /* Use the primary color from your theme */
+    background-color: #e3f2fd; /* Light blue background */
+  }
+
+  /* src/styles/ModelResponses.css */
+
+  
+  
+  
+  

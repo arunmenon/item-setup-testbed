@@ -1,0 +1,48 @@
+/* src/styles/ItemDetailsForm.css */
+
+.form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .submit-button {
+    margin-top: 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #1565c0; /* Darken the primary color */
+  }
+  
+  .error-message {
+    color: #d32f2f;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  /* In src/styles/ItemDetailsForm.css */
+
+.progress-indicator {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  /* src/styles/ItemDetailsForm.css */
+
+@media (max-width: 600px) {
+    .form-container {
+      padding: 1rem;
+      margin: 1rem;
+    }
+  }
+  
+
+  
